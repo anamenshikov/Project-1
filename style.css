@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+header {
+  background-image: url("images/living-room.jpg");
+  height: 568px;
+  background-position: center;
+}
+
+.header__top__menu {
+  color: #fec845;
+  height: 29px;
+  background-color: black;
+  padding: 7px 15px 0 45px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+}
+
+.header__menu {
+  background-color: black;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.open-menu {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__content {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
+  padding-top: 75px;
+}
+.header__content h2 {
+  text-shadow: 1px 1px 7px #333333;
+}
+.header__content p {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+.header__content a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  padding: 12px 45px;
+  background: #fec845;
+}
+.header__content a:hover {
+  background: #333333;
+}
+
+.carousel {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.carousel a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.carousel figure {
+  margin: 0;
+}
+.carousel .fas {
+  margin-bottom: 5px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.products__header, .article__section__header {
+  height: 85px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 21px;
+  color: #3a3d45;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 13px;
+  margin: 4px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.products__menu {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3px;
+  margin: 3px;
+}
+.products__menu .product__menu__item {
+  padding: 5px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.products__menu .product__menu__item img {
+  max-width: 100%;
+  height: auto;
+}
+.products__menu .product__menu__item h2 {
+  font-size: 17px;
+  margin: 0;
+}
+.products__menu .product__menu__item sub {
+  text-decoration: line-through;
+}
+.products__menu .product__menu__item sub, .products__menu .product__menu__item sup {
+  color: #666;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.product__store__link, .article__more__link {
+  margin-top: 35px;
+  text-align: center;
+  height: 60px;
+}
+.product__store__link a, .article__more__link a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  padding: 15px 19px;
+  background: #fb0;
+}
+.product__store__link a:hover, .article__more__link a:hover {
+  background: #333333;
+}
+
+.category__menu {
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+.category__menu span {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.category__sofas {
+  background-image: url(images/sofas.jpg);
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+}
+
+.category__chairs {
+  background-image: url(images/chairs.jpg);
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+}
+
+.category__bath {
+  background-image: url(images/bathrooms.jpg);
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+}
+
+.category__menu__link {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.category__menu__more {
+  height: 100px;
+  background-color: #cc9600;
+}
+
+.article__one {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/article-1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 387px;
+  margin: 0 15px 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.article__two {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/article-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 387px;
+  margin: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.article__three {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/article-3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 387px;
+  margin: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.our__story__banner {
+  background-image: url("images/fixed-bckgrnd.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 545px;
+  color: #fff;
+}
+.our__story__banner .out__story_desc {
+  text-align: center;
+  padding: 160px 15px 15px;
+}
+.our__story__banner h2 {
+  text-transform: uppercase;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.our__story__banner p {
+  padding-bottom: 50px;
+}
+.our__story__banner a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 12px;
+}
+.our__story__banner a:hover {
+  background: white;
+  color: #333333;
+}
+
+/*# sourceMappingURL=style.css.map */
