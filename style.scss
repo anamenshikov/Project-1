@@ -393,5 +393,54 @@ header{
     border-bottom: 1px solid #999999;
     font-family: "Montserrat",sans-serif;
     font-size: 17px;
+    margin: 15px;
   }
+}
+
+.footer__links {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2px;
+  }
+  .last__footer__link {
+    padding-bottom: 12px;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #cc9600;
+  }
+}
+
+
+.footer__sub h3 {
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #cc9600;
+}
+
+.sub__form__email {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  border-bottom: 1px solid #fb0;
+  width: 100%;
+  height: 45px;
+}
+
+.sub__form__btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 7px 10px;
+  background-color: transparent;
 }
