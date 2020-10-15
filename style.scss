@@ -282,18 +282,6 @@ header{
     height: 500px;
   }
 }
-@medi (min-width: 990px) {
-  .category__menu__more {
-    height: auto;
-    width: 10%;
-  }
-}
-
-@media (min-width: 990px) {
-  .category__menu__link {
-    padding-top: 250px;
-  }
-}
 
 .category__menu__link {
   text-decoration: none;
@@ -304,9 +292,29 @@ header{
   padding-top: 30px;
 }
 
+@media (min-width: 990px) {
+  .category__menu__link {
+    padding-top: 250px;
+  }
+}
+
 .category__menu__more {
   height: 100px;
   background-color: #cc9600;
+}
+
+@media (min-width: 990px) {
+  .category__menu__more {
+    height: 500px;
+    width: 10%;
+  }
+}
+
+@media (min-width: 990px) {
+  .article__posts {
+    display: flex;
+    margin: 0 270px;
+  }
 }
 
 .article__one, .article__two, .article__three {
@@ -317,6 +325,26 @@ header{
   color: white;
   font-family: 'Montserrat', sans-serif;
   padding: 20px;
+}
+
+@media (min-width: 990px) {
+  .article__one, .article__two, .article__three {
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 990px) {
+  .article__title {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 990px) {
+  .article__desc {
+    display: none;
+  }
 }
 
 .article__one {
@@ -339,7 +367,7 @@ header{
   height: 545px;
   color: #fff;
 
-  .out__story_desc {
+  .our__story_desc {
     text-align: center;
     padding: 160px 15px 15px;
   }
@@ -352,6 +380,12 @@ header{
 
   p {
     padding-bottom: 50px;
+  }
+
+  @media (min-width: 990px) {
+    .our__story_desc p {
+      margin: 0 450px;
+    }
   }
 
   a {
@@ -373,9 +407,22 @@ header{
   margin: 0 15px 15px;
 }
 
+@media (min-width: 990px) {
+  .blog__posts {
+    display: flex;
+    margin: 0 270px;
+  }
+}
+
 .blog__img {
   width: 290px;
   display:flex;
+}
+
+@media (min-width: 990px) {
+  .blog__img {
+    width: 360px;
+  }
 }
 
 .blog__desc {
@@ -400,6 +447,12 @@ header{
   color: #333333;
 }
 
+@media (min-width: 990px) {
+  .blog__title {
+    font-size: 17px;
+  }
+}
+
 .instagram__header {
   height: 155px;
   background-color: white;
@@ -420,6 +473,18 @@ header{
     margin: 4px;
     font-family: "Roboto",sans-serif;
     color: #666666;
+  }
+}
+
+@media (min-width: 990px) {
+  .instagram__header h2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 990px) {
+  .instagram__header p {
+    font-size: 16px;
   }
 }
 
