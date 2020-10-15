@@ -16,6 +16,11 @@ header {
   background-position: center;
 }
 
+@media (min-width: 990px) {
+  header {
+    height: 675px;
+  }
+}
 .header__top__menu {
   color: #fec845;
   height: 29px;
@@ -35,6 +40,12 @@ header {
   justify-content: space-between;
 }
 
+@media (min-width: 990px) {
+  .header__top__menu, .header__menu {
+    background-color: transparent;
+    margin: 0 270px;
+  }
+}
 .open-menu {
   font-size: 15px;
   text-decoration: none;
@@ -67,6 +78,19 @@ header {
   background: #333333;
 }
 
+@media (min-width: 990px) {
+  .header__content {
+    margin: 20px 270px 0 270px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
 .carousel {
   margin-top: 150px;
   display: flex;
@@ -88,10 +112,20 @@ header {
   justify-content: space-evenly;
 }
 
+@media (min-width: 990px) {
+  .carousel {
+    margin-top: 180px;
+  }
+}
 .products__header, .article__section__header, .blog__section__header {
   height: 85px;
 }
 
+@media (min-width: 990px) {
+  .products__header, .article__section__header, .blog__section__header {
+    height: 100px;
+  }
+}
 .title {
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -110,6 +144,16 @@ header {
   color: #666666;
 }
 
+@media (min-width: 990px) {
+  .title {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
 .products__menu {
   display: inline-grid;
   grid-template-columns: auto auto;
@@ -143,6 +187,13 @@ header {
   vertical-align: baseline;
 }
 
+@media (min-width: 990px) {
+  .products__menu {
+    grid-template-columns: auto auto auto;
+    margin: 0 270px;
+    grid-gap: 30px;
+  }
+}
 .product__store__link, .article__more__link {
   margin-top: 35px;
   text-align: center;
@@ -161,6 +212,12 @@ header {
   background: #333333;
 }
 
+@media (min-width: 990px) {
+  .product__store__link, .article__more__link {
+    margin-top: 60px;
+    height: 110px;
+  }
+}
 .category__menu {
   color: white;
   font-size: 16px;
@@ -194,6 +251,28 @@ header {
   background-size: cover;
 }
 
+@media (min-width: 990px) {
+  .category__menu {
+    display: flex;
+  }
+}
+@media (min-width: 990px) {
+  .category__sofas, .category__chairs, .category__bath {
+    width: 30%;
+    height: 500px;
+  }
+}
+@medi (min-width: 990px) {
+  .category__menu__more {
+    height: auto;
+    width: 10%;
+  }
+}
+@media (min-width: 990px) {
+  .category__menu__link {
+    padding-top: 250px;
+  }
+}
 .category__menu__link {
   text-decoration: none;
   color: white;
