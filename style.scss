@@ -41,10 +41,42 @@ header{
   justify-content: space-between;
 }
 
+.fa-search, .fa-shopping-cart {
+  display: none;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+@media (min-width: 990px) {
+  .fa-search, .fa-shopping-cart {
+    display: flex;
+  }
+}
+
 @media (min-width: 990px) {
   .header__top__menu, .header__menu {
     background-color: transparent;
     margin: 0 270px;
+  }
+}
+
+@media (min-width: 990px) {
+  .open-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 990px) {
+  .navbar-menu {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
   }
 }
 
@@ -520,6 +552,30 @@ header{
   }
 }
 
+@media (min-width: 990px) {
+  .showroom {
+    padding-top: 270px;
+  }
+}
+
+@media (min-width: 990px) {
+  .showroom h2 {
+    text-align: left;
+    margin: 0 270px;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 990px) {
+  .showroom p {
+    text-align: left;
+    margin: 0 270px;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+}
+
 .showroom__contact {
   text-align: center;
   padding-top: 35px;
@@ -545,6 +601,13 @@ header{
     font-family: "Montserrat",sans-serif;
     font-size: 17px;
     margin: 15px;
+  }
+}
+
+@media (min-width: 990px) {
+  .showroom__contact {
+    text-align: end;
+    margin: 0 380px;
   }
 }
 
